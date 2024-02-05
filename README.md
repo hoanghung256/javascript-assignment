@@ -24,5 +24,5 @@
   - After click the submit button, get data form form then display in the table.
     ![](/images/asm2-after_submit.png "After submit")
   - Calculate total price for all row when click Calculate total price button.
-    ![](/images/asm2-click_calculate_total_price_button.png.png.png "Calculate total price")
+    ![](/images/asm2-click_calculate_total_price_button.png "Calculate total price")
 - Styling is optional
