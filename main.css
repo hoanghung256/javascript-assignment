@@ -1,0 +1,11 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.name, .price, .quant, .date{
+    display: inline;
+}
+
+.bold{
+    font-weight: bold;
+}
