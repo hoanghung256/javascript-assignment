@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div><!--Input form-->
+        <form action="">
+            <h2>Create new product form</h2>
+        <label for="p-name">Product name: </label> <br>
+        <input type="text" id="p-name" name="Product name: "> <br>
+    
+        <label for="p-price">Price: </label> <br>
+        <input type="text" id="p-price"> <br>
+    
+        <label for="p-quantity">Quantity: </label> <br>
+        <input type="text" id="p-quantity"> <br>
+    
+        <label for="p-date">Create date: </label> <br>
+        <input type="date" id="p-date"> <br>
+        </form>
+    </div>
+
+    <div><!--Display button-->
+        <button onclick="displayData()">Display data</button>
+    </div>
+
+    <div class="product-data"><!--Display product data-->
+        <h2>Display new product data</h2>
+        <div class="name-data">
+            <p><b>Name: </b></p><p id="name-output"></p><br>
+        </div>
+        <div class="price-data">
+            <p><b>Price: </b></p><p id="price-output"></p><br>
+        </div>
+        <div class="quantity-data">
+            <p><b>Quantity: </b></p><p id="quantity-output"></p><br>
+        </div>
+        <div class="date-data">
+            <p><b>Create date:</b></p><p id="date-output"></p><br>
+        </div>
+    </div>
+</body>
+</html>
