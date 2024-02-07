@@ -5,27 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div><!--Input form-->
+    <div class="input-form"><!--Input form-->
         <form action="">
             <h2>Create new product form</h2>
-        <label for="p-name">Product name: </label> <br>
-        <input type="text" id="p-name" name="Product name: "> <br>
-    
-        <label for="p-price">Price: </label> <br>
-        <input type="text" id="p-price"> <br>
-    
-        <label for="p-quantity">Quantity: </label> <br>
-        <input type="text" id="p-quantity"> <br>
-    
-        <label for="p-date">Create date: </label> <br>
-        <input type="date" id="p-date"> <br>
+
+            <div>
+                <label for="p-name">Product name: </label> <br>
+                <input type="text" id="p-name" name="Product name: "> <br>
+            </div>
+            <div>
+                <label for="p-price">Price: </label> <br>
+                <input type="text" id="p-price"> <br>
+            </div>
+            <div>
+                <label for="p-quantity">Quantity: </label> <br>
+                <input type="text" id="p-quantity"> <br>
+            </div>
+            <div>
+                <label for="p-date">Created date: </label> <br>
+                <input type="date" id="p-date"> <br>
+            </div>
         </form>
     </div>
 
-    <div><!--Display button-->
+    <div class="display-button"><!--Display button-->
         <button onclick="displayData()">Display data</button>
     </div>
 

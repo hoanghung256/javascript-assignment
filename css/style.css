@@ -2,6 +2,16 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.name-data, .price-data, .quantity-data, .date-data{
+.name-data, .price-data,
+ .quantity-data, .date-data{
     display: flex;
+}
+
+#name-output, #price-output,
+ #quantity-output, #date-output{
+    margin-left: 5px;
+}
+
+.input-form div, .display-button{
+    margin-top: 10px;
 }
