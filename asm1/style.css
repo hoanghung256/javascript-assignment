@@ -1,0 +1,3 @@
+.name-data, .price-data, .quantity-data, .date-data{
+    display: flex;
+}

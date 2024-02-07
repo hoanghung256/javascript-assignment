@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class ="function-btn">
+        <button onclick="openForm()">Add new product</button>
+        <button onclick="calTotal()" style="margin-left: 10px;">Calculate total price</button>
+    </div>
+    <table id="productList" style="width:100%">
+        <tr>
+            <th>Product Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Create Date</th>
+            <th>Total Price</th>
+          </tr>
+    </table>
+    <div class="form-popup" id="myForm">
+        <div style="display: flex; justify-content: end;" onclick="closeForm()"><button >x</button></div>
+        <h2 style="margin: 50px;">Create new Product form</h2>
+    <div style="padding: 10px; align-content: center;">
+        <form >
+            <p class="m-5"><label for="ProdName">Product name:</label></p>
+            <p class="m-5"><input id="ProdName" type="text" style="width: 300px;"></p>
+            <p class="m-5"><label for="price">Price:</label></p>
+            <p class="m-5"><input id="price" type="number" style="width: 300px;"></p>
+            <p class="m-5"><label for="quantity">Quantity:</label></p>
+            <p class="m-5"><input id="quantity" type="number" style="width: 300px;"></p>
+            <p class="m-5"><label for="date">Create Date:</label></p>
+            <p class="m-5"><input id="date" type="date" style="width: 300px;"></p>
+            <button type="button" onclick= "event.preventDefault(); onFormSubmit();" style="width: 305px;">Submit</button>
+        </form>    
+    </div>
+    </div>
+
+</body>
+</html>
