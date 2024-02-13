@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Create new Product form</h2>
+    <div>
+        <form class="container-fluid">
+            <p class="m-5"><label for="ProdName">Product name:</label></p>
+            <p class="m-5"><input id="ProdName" type="text" style="width: 200px;"></p>
+            <p class="m-5"><label for="price">Price:</label></p>
+            <p class="m-5"><input id="price" type="number" style="width: 200px;"></p>
+            <p class="m-5"><label for="quantity">Quantity:</label></p>
+            <p class="m-5"><input id="quantity" type="number" style="width: 200px;"></p>
+            <p class="m-5"><label for="date">Create Date:</label></p>
+            <p class="m-5"><input id="date" type="date" style="width: 200px;"></p>
+            <button type="button" onclick= "displayProduct()" style="width: 205px;">Display data</button>
+        </form>    
+    </div>
+    <div style="line-height: 10px;">
+        <h2>Display new product data</h2>
+        <div class ="name-data">
+            <h4>Name: </h4> 
+            <h4 id ="pname" style="margin-left: 5px;"></h4>
+        </div>
+        <div class ="price-data">
+            <h4>Price: </h4> 
+            <h4 id ="pprice" style="margin-left: 5px;"></h4>
+        </div>
+        <div class ="quantity-data">
+            <h4>Quantity: </h4> 
+            <h4 id ="pquantity" style="margin-left: 5px;"></h4>
+        </div>
+        <div class ="date-data">
+            <h4>Create Date: </h4> 
+            <h4 id ="pdate" style="margin-left: 5px;"></h4>
+        </div>
+    </div>
+    
+</body>
+</html>
