@@ -13,7 +13,7 @@
         <button onclick="openForm()">Add new product</button>
         <button onclick="calTotal()" style="margin-left: 10px;">Calculate total price</button>
     </div>
-    <table id="productList" style="width:100%">
+    <!-- <table id="productList" style="width:100%">
         <tr>
             <th>Product Name</th>
             <th>Price</th>
@@ -21,7 +21,22 @@
             <th>Create Date</th>
             <th>Total Price</th>
           </tr>
+    </table> -->
+    <table id="productList" style="width:100%">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Create Date</th>
+                <th>Total Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
     </table>
+    
     <div class="form-popup" id="myForm">
         <div style="display: flex; justify-content: end;" onclick="closeForm()"><button >x</button></div>
         <h2 style="margin: 50px;">Create new Product form</h2>
