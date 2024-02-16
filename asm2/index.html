@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="./js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="function-button">
+        <div class="add-new-button">
+            <button onclick="displayForm()">Add new product</button>
+        </div>
+        <div class="caculate-button">
+            <button onclick="calTotalPrice()">Caculate total price</button>
+        </div>
+    </div>
+
+    </div>
+    <div class="product-table">
+        <table id="p-table">
+            <tr>
+                <th>Product name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Created date</th>
+                <th>Total price</th>
+            </tr>
+        </table>
+    </div>
+
+    <div id="input-form"><!--Input form-->
+        <form>
+            <div class="form-head">
+                <h2>Create new product form</h2>
+            <div class="close-button" onclick="hideForm()">
+                <span>x</span>
+            </div>
+            </div>
+            <div>
+                <label for="p-name">Product name: </label> <br>
+                <input type="text" id="p-name" name="Product name: "> <br>
+            </div>
+            <div>
+                <label for="p-price">Price: </label> <br>
+                <input type="text" id="p-price"> <br>
+            </div>
+            <div>
+                <label for="p-quantity">Quantity: </label> <br>
+                <input type="text" id="p-quantity"> <br>
+            </div>
+            <div>
+                <label for="p-date">Created date: </label> <br>
+                <input type="date" id="p-date"> <br>
+            </div>
+        </form>
+        <div class="submit-button"><!--Display button-->
+            <button onclick="showNewData(), hideForm()">Submit</button>
+        </div>
+</body>
+</html>
