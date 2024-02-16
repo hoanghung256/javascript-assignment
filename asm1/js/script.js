@@ -7,6 +7,7 @@ function displayData() {
 
     //format date data
     var formattedDate = moment(dateData).format('DD/MM/YYYY');
+
     //print values
     document.getElementById("name-output").innerText = nameData;
     document.getElementById("price-output").innerText = priceData;

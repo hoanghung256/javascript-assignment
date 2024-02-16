@@ -1,0 +1,46 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.add-new-button, .caculate-button{
+    display: inline-block;
+}
+
+.name-data, .price-data,
+ .quantity-data, .date-data{
+    display: flex;
+}
+
+.input-form div, .submit-button{
+    margin-top: 10px;
+}
+
+/* .input-form{
+    border: 1px solid #333;
+} */
+#input-form{
+    display: none;
+}
+.form-head{
+    display: flex;
+}
+.close-button{
+    display: block;
+}
+
+.close-button span:hover{
+    cursor: pointer;
+}
+
+#p-table, th, td{
+    border: 1px solid black;
+}
+
+#p-table th, td{
+    padding: 0px 50px 0px 50px;
+    text-align: left;
+}
+
+#p-table{
+    margin: 10px auto 10px auto;
+}
