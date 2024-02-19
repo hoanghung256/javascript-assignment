@@ -1,0 +1,54 @@
+table, th, td{
+    border: 1px solid black;
+    justify-content: center;
+}
+
+table{
+    width: 100%;
+}
+
+/* #overlay{
+    border: 1px solid black;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color:darkgrey;
+    width: 30%;
+    position: relative;
+} */
+
+.btn:hover{
+    background-color: aqua;
+}
+
+#popup{
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content{
+    height: 540px;
+    width: 350px;
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+}
+
+.close_btn{
+    border: none;
+    padding: 0;
+    width: 25px;
+}
+.popup img{
+    background-color: #fff;
+    width: 25px;
+}
+
